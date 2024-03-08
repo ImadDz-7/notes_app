@@ -54,7 +54,7 @@ class CustomNoteItem extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(right: 24),
               child: Text(
-                  note.date.substring(0, 16),
+                  note.date,
                   style: TextStyle(
                     color: Colors.black.withOpacity(.4),
                     fontSize: 13,
